@@ -6,18 +6,10 @@ Assume that a Programmer works at the office from 09:00 am - 05:00 pm. We have t
 -> To perform physical activity after every 45 minutes.
 
 Instructions:-
-The task is to create a program that plays mp3 audio until the programmer enters the input which implies that he has
-done the task.
-For Water, the user should enter 'Drank'. - Every 40 min.
-For Eye Exercise, the user should enter 'EyDone'. - Every 30 min.
-For Physical Exercise, the user should enter 'ExDone'. - Every 45 min.
-
-After the user enters the input, a file should be created for every task separately, which contains the details about
-time when the user performed a certain task.
-
-Challenge:-
--> You will have to manage the clashes between reminders such that no two reminders play at the same time.
-Use pygame module to play audio.
+The task is to create a program that reminds the programmer.
+For Water, remind after - Every 40 min.
+For Eye Exercise, remind after - Every 30 min.
+For Physical Exercise, remind after - Every 45 min.
 """
 
 from datetime import datetime
